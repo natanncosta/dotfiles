@@ -5,6 +5,8 @@
 	email = nataniel08@protonmail.com
 [init]
 	defaultBranch = main
+[color]
+    ui = auto
 [alias]
   s = !git status -s
   c = !git add --all && git commit -m
