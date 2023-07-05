@@ -1,0 +1,22 @@
+alias c=clear
+alias vim=nvim
+alias t=tmux
+
+# DOTNET
+alias db='dotnet build'
+alias dr='dotnet run'
+alias dnc5='dotnet new console -f net5.0 -o'
+alias dnw5="dotnet new webapi -f net5.0 -o"
+alias dnw6="dotnet new webapi -f net6.0 -o"
+alias dnw7="dotnet new webapi -f net7.0 -o"
+alias dres="dotnet restore"
+alias dw="dotnet watch"
+alias dns="dotnet new sln -o"
+alias dnl5="dotnet new classlib -f net5.0 -o"
+alias drp="dotnet run --project"
+alias dt="clear && dotnet test"
+
+# DOCKER
+alias docrun="sudo systemctl start docker"
+alias docstop="sudo systemctl stop docker.service docker.socket"
+alias dps="docker ps"
